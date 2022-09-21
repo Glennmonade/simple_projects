@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Router>
-      <Routes baseName = "/simple_projects">
+      <Routes basename = "/simple_projects">
         <Route path="/" element={<Home {...homeObj}/>} />
         <Route path="/weather-content" element={<WeatherContent {...contentObjOne}/>} />
         <Route path="/quiz-content" element={<QuizContent {...contentObjTwo}/>} />

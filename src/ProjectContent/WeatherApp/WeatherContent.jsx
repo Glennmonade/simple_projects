@@ -35,7 +35,7 @@ const WeatherContent = ({
     <div>
         <ContentHeader>
             <ContentContainer>
-                <Back href='/'>Back</Back>
+                <Back href='/simple_projects'>Back</Back>
                 <ContentTitle>{contentTitle}</ContentTitle>
                 <Img src={img}/>
             </ContentContainer>

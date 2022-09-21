@@ -9,8 +9,8 @@ import QuizContent from "./ProjectContent/QuizGame/QuizContent";
 function App() {
   return (
     <>
-    <Router>
-      <Routes basename = "/simple_projects">
+    <Router  basename = "/simple_projects">
+      <Routes>
         <Route path="/" element={<Home {...homeObj}/>} />
         <Route path="/weather-content" element={<WeatherContent {...contentObjOne}/>} />
         <Route path="/quiz-content" element={<QuizContent {...contentObjTwo}/>} />

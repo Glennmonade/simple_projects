@@ -31,3 +31,13 @@ export const NavBarContainer = styled.div`
         padding-left: 15px;
     }
 `
+export const WeatherStat = styled.ul`
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+`
+
+export const WeatherItems = styled.li`
+    height: 80px;
+`
